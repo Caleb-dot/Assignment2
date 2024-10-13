@@ -1,0 +1,70 @@
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+}
+
+
+#username {
+    padding: 10px;
+    width: 300px;
+    margin: 10px 0;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+
+#save-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+#save-btn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+
+#clear-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+#clear-btn:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
+
+
+#display-name {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #343a40;
+    border: 2px dashed #007bff;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e9ecef;
+    min-width: 300px;
+    text-align: center;
+}
